@@ -347,6 +347,10 @@ font-size: 0.8rem;
     right: 1.5rem;
 }
 
+.questions-container button:hover img {
+    transform: rotate(45deg);
+}
+
 .questions-container .faq-question {
     padding-left: 2rem;
 }
@@ -361,8 +365,6 @@ font-size: 0.8rem;
     overflow: hidden;
     display: none;
 }
-
-
  .email-container {
     position: relative;
     text-align: center;
